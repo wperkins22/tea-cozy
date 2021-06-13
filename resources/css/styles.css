@@ -43,9 +43,38 @@ nav {
 
 #statement {
     background-color: black;
-    /* text-align: center; */
     width: 100%;
     margin: 0;
     position: absolute;
     top: 50%;
+    overflow: hidden;
+}
+
+#tea-of-the-month {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.teas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+#t2 {
+    justify-content: space-around;
+}
+
+.teas img {
+    height: 200px;
+    width: 300px;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.teas h4 {
+    margin: 0;
+    padding-top: 0;
 }
