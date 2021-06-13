@@ -46,8 +46,15 @@ nav {
     width: 100%;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 40%;
     overflow: hidden;
+}
+
+#mission-img {
+    overflow: hidden;
+    height: 700px;
+    width: 100%;
+    object-fit: none;
 }
 
 #tea-of-the-month {
@@ -83,7 +90,7 @@ nav {
     width: 1200px;
     height: 500px;
     margin: auto;
-    position: absolute;
+    position: relative;
 }
 
 #locations-img {
@@ -113,5 +120,17 @@ nav {
 }
 
 #contact {
+    position: relative;
     height: 200px;
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    margin: 0;
+}
+
+footer p {
+    margin: 20px;
 }
