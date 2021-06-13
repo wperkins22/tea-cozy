@@ -37,7 +37,7 @@ nav {
 #mission {
     width: 1200px;
     height: 700px;
-    margin: 0 auto;
+    margin: auto;
     position: relative;
 }
 
@@ -52,7 +52,7 @@ nav {
 
 #tea-of-the-month {
     width: 1000px;
-    margin: 0 auto;
+    margin: auto;
     position: relative;
 }
 
@@ -77,4 +77,41 @@ nav {
 .teas h4 {
     margin: 0;
     padding-top: 0;
+}
+
+#locations {
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+    position: absolute;
+}
+
+#locations-img {
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+    object-fit: none;
+}
+
+#location-cards h2 {
+    margin-bottom: 15px;
+}
+
+#location-cards {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 15%;
+}
+
+.location {
+    width: 300px;
+    background-color: black;
+    margin: 20px;
+    display: inline-block;
+    opacity: 1;
+}
+
+#contact {
+    height: 200px;
 }
